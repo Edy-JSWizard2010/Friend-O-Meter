@@ -6,9 +6,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    height: -webkit-fill-available;
+}
 
 body{
+    display: flex;
     background: #007bff;
+    height: 100vh;
+    flex-direction: column;
+    height: -webkit-fill-available;
+
 }
 
 ::selection{
